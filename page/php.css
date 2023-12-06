@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+header {
+    background-color: rgba(74,0, 128, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 70px 70px;
+    padding: 5px;
+}
+
+
+body {
+    background-image: url('image/bank1.jpg');
+}
+
+
+.LogoPay {
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    /* margin: 10px; */
+    
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+}
+
+h2{
+   color: whitesmoke; 
+   font-size: 14px; 
+}
+/* ========================================================================== */
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    padding: 5%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+
+.A1 {
+    background-color: rgba(128,0, 128, 0.6);
+  color: whitesmoke;
+  width: 283px;
+  height: 320px;
+  /* border-radius: 50px 0px 0px 50px; */
+  border: solid 1px;
+}
+
+
+.A2 {
+    background-color: rgba(74,0, 128, 0.6);
+    color: whitesmoke;
+    width: 283px;
+    height: 320px;
+    /* border-radius: 0px 50px 50px 0px; */
+    border: solid 1px;
+}
+
+
+.form1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+input {
+    background-color: transparent;
+    outline: 0;
+    border-bottom: 2px solid whitesmoke;
+    color: whitesmoke;
+    bottom: 0;
+}
+
