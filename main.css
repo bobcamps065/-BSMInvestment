@@ -21,9 +21,10 @@
     z-index: 1;
 }
 
-.logo {
+.logo{
     width: 70px;
     height: 70px;
+    
 }
 
 #btn1 {
@@ -31,4 +32,24 @@
     right: 0;
     bottom: 0;
     z-index: 1;
+    
+}
+
+
+.btn {
+    margin: 5px;
+}
+
+
+.footer {
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding: 5px;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
